@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+ol {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+.color {
+    color: black;
+}
+a {color: maroon;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+
+.homebg {
+    background-image: url('../images/Home_Background.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    border: 1px solid red;
+}
+
+.box2 {
+    padding: 5px;
+}
+/* We'll see how much I end up changing this for the project */
+.box3 {
+    margin: 50px;
+}
